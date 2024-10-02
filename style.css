@@ -22,7 +22,6 @@ header {
     height: 220px;  /* Ajuster pour tenir compte de la hauteur du logo */
 }
 
-
 header h1 {
     color: #B22222; /* Rouge moins vif, pris de la charte graphique */
     margin: 0;
@@ -71,9 +70,23 @@ main {
     padding-top: 280px;  /* Ajuster le padding pour éviter que le contenu soit caché par l'en-tête et la navigation */
 }
 
-/* Contenu caché par défaut */
+/* Sections */
 .section {
-    display: none;
+    max-width: 800px; /* Limite la largeur du contenu pour centrer le texte */
+    margin: 0 auto; /* Centrer le contenu */
+    padding: 20px; /* Ajout d'espace interne pour aérer le texte */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute un léger ombrage pour rendre les sections visuellement séparées */
+    background-color: white;
+}
+
+/* Galerie : Centrer et espacer les images */
+.gallery img {
+    display: block;
+    margin: 20px auto; /* Centre les images dans la galerie */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optionnel : arrondit les coins des images */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute un léger ombrage aux images */
 }
 
 /* La section active est visible */
