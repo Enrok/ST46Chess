@@ -1,0 +1,121 @@
+/* Importation de la police */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #333333; /* Gris foncé pour le texte */
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 4px 2px -2px gray;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #B22222; /* Rouge moins vif, pris de la charte graphique */
+    margin: 0;
+    font-size: 24px;
+}
+
+header h2 {
+    color: #B22222;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Logo de l'en-tête */
+.logo {
+    margin: 10px 0;
+}
+
+/* Navigation toujours visible */
+nav {
+    text-align: center;
+    position: fixed;
+    top: 120px; /* Positionné juste en dessous de l'en-tête */
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
+    z-index: 999; /* Toujours au-dessus du contenu */
+}
+
+/* Les liens de navigation */
+nav a {
+    color: #B22222;
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+/* Effet hover et section active */
+nav a:hover, nav a.active {
+    font-weight: bold;
+    background-color: #f1f1f1;
+}
+
+/* Ajustement du padding du contenu */
+main {
+    padding-top: 180px; /* Espace pour compenser l'en-tête fixe et la barre de navigation */
+}
+
+/* Contenu caché par défaut */
+.section {
+    display: none;
+}
+
+/* La section active est visible */
+.section.active {
+    display: block;
+}
+
+h2 {
+    color: #B22222; /* Rouge pour les titres */
+}
+
+p {
+    color: #333333; /* Texte de paragraphe en gris foncé */
+}
+
+strong {
+    color: #B22222; /* Rouge pour les caractères gras */
+}
+
+/* Footer */
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #B22222;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #B22222;
+    color: white;
+}
+
