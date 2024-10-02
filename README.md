@@ -1,1 +1,1 @@
-just a test for the chess clu pages
+just a test for ST46's chess club pages
