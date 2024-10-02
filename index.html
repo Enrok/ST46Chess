@@ -138,7 +138,13 @@
         });
         document.querySelector('nav a[href="#' + sectionId + '"]').classList.add('active');
     }
+
+    // Afficher la première section par défaut
+    document.addEventListener('DOMContentLoaded', function () {
+        showSection('accueil');
+    });
 </script>
+
 
 </body>
 </html>
