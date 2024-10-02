@@ -17,9 +17,11 @@ header {
     background-color: white;
     z-index: 1000;
     box-shadow: 0 4px 2px -2px gray;
-    padding: 10px 0;
+    padding: 20px 0;  /* Augmenter le padding pour laisser plus d'espace */
     text-align: center;
+    height: 220px;  /* Ajuster pour tenir compte de la hauteur du logo */
 }
+
 
 header h1 {
     color: #B22222; /* Rouge moins vif, pris de la charte graphique */
@@ -38,18 +40,18 @@ header h2 {
     margin: 10px 0;
 }
 
-/* Navigation toujours visible */
+/* Barre de navigation */
 nav {
     text-align: center;
     position: fixed;
-    top: 120px; /* Positionné juste en dessous de l'en-tête */
+    top: 220px;  /* Placer la barre sous l'en-tête */
     width: 100%;
     background-color: white;
     box-shadow: 0 4px 2px -2px gray;
-    z-index: 999; /* Toujours au-dessus du contenu */
+    z-index: 999; /* Assurer que la barre reste au-dessus du contenu */
 }
 
-/* Les liens de navigation */
+/* Liens de la navigation */
 nav a {
     color: #B22222;
     text-decoration: none;
@@ -64,9 +66,9 @@ nav a:hover, nav a.active {
     background-color: #f1f1f1;
 }
 
-/* Ajustement du padding du contenu */
+/* Ajustement du padding du contenu pour éviter le chevauchement */
 main {
-    padding-top: 180px; /* Espace pour compenser l'en-tête fixe et la barre de navigation */
+    padding-top: 280px;  /* Ajuster le padding pour éviter que le contenu soit caché par l'en-tête et la navigation */
 }
 
 /* Contenu caché par défaut */
@@ -118,4 +120,3 @@ th {
     background-color: #B22222;
     color: white;
 }
-
