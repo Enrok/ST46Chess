@@ -8,14 +8,14 @@ header {
     box-shadow: 0 4px 2px -2px gray;
     padding: 20px 0;
     text-align: center;
-    height: 250px;  /* Augmenter la hauteur pour éviter que la navigation chevauche le logo */
+    height: 310px;  /* Augmenter la hauteur pour éviter que la navigation chevauche le logo */
 }
 
 /* Barre de navigation */
 nav {
     text-align: center;
     position: fixed;
-    top: 250px;  /* Positionner la barre sous l'en-tête après l'ajustement */
+    top: 310px;  /* Positionner la barre sous l'en-tête après l'ajustement */
     width: 100%;
     background-color: white;
     box-shadow: 0 4px 2px -2px gray;
@@ -46,7 +46,7 @@ main {
 .section {
     max-width: 800px; /* Limite la largeur du contenu pour centrer le texte */
     margin: 0 auto; /* Centrer le contenu */
-    padding: 20px; /* Ajout d'espace interne pour aérer le texte */
+    padding: 60px; /* Ajout d'espace interne pour aérer le texte */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optionnel : ombrage léger pour mieux séparer les sections */
     background-color: white;
     display: none; /* Toutes les sections sont cachées par défaut */
