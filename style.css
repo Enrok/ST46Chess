@@ -15,7 +15,7 @@ header {
 nav {
     text-align: center;
     position: fixed;
-    top: 425px;  /* Positionner la barre sous l'en-tête après l'ajustement */
+    top: 325px;  /* Positionner la barre sous l'en-tête après l'ajustement */
     width: 100%;
     background-color: white;
     box-shadow: 0 4px 2px -2px gray;
